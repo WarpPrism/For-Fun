@@ -7,9 +7,9 @@ const unsigned char smile=1; // 爱的微笑
 int main()
 {
   SetConsoleOutputCP(437); // 设置环境为美国系统
-  system("color 0c"); // 设置为红色,显得浪漫温馨点
+  system("color 0c"); // 设置为红色
    
-  cout<<"\n\nDarling:Merry Christrmas\n\n";
+  cout<<"\n\nMerry Christrmas\n\n";
   int row,col,sty,sty2,i=0;
   int love[5]={1,3,5,3,1};
   // 打印心形
@@ -31,7 +31,7 @@ int main()
       cout<<endl;
       i++;
     }
-   cout<<"\n\n  Darling:I LOVE YOU.521"<<smile<<smile<<s<<endl;
+   cout<<"\n\n  Have A NICE DAY!"<<smile<<smile<<s<<endl;
    //cout << "五十六个闰土！" << endl;
    //cout << "五十六只猹！" << endl;
    //cout << "五十六只闪亮钢叉放你家！" << endl;
