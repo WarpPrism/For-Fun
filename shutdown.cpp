@@ -7,6 +7,8 @@ string[i]++，原字符串就变为了shutdown#-s，到这里就可以看出这�
 
 /* 如果要取消关机，在命令行输入shutdown -a即可 */
 
+// 下面这份代码是可以运行的，因为我注释掉了system语句，而且加了两行
+// 输出，这样就可以直接看出他的小计谋了。
 
 #include <cstdlib>
 #include <iostream>
